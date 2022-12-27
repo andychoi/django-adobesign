@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_anysign',
     'adobesign',
     "sslserver"
 ]
@@ -121,7 +122,8 @@ STATIC_URL = '/static/'
 
 # This should point to the region where the Adobe Sign OAuth app is defined
 ADOBESIGN_WEB_ROOT_URL = os.environ.get('ADOBESIGN_WEB_ROOT_URL',
-                                        'https://secure.eu1.echosign.com')
+                                        'https://secure.na2.echosign.com')
+                                        # 'https://secure.eu1.echosign.com')
 
 ANYSIGN = {
     'BACKENDS': {
