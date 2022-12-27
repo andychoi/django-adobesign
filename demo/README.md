@@ -15,10 +15,20 @@ It implements `django-anysign`_ API.
   - test : redirect URI https://localhost:8000/token
 
 # Run with SSL
+python -m venv .venv && source .venv/bin/activate
+python -m pip install -r requirements.txt
 
 python manage.py runsslserver
 
 
 # Browser
+- create setting: https://localhost:8000/
+ - root uri: https://secure.na2.echosign.com
+ - application id
+ - secret
+ 
 https://localhost:8000/token
 https://localhost:8000/signature
+
+# how to create pdf and upload
+https://experienceleague.adobe.com/docs/document-services/tutorials/acrobatsign/signapi.html?lang=en
