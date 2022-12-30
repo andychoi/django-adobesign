@@ -22,7 +22,7 @@ python manage.py runsslserver
 
 
 # Browser
-- create setting: https://localhost:8000/
+- SHOULD access through **HTTPS**: https://localhost:8000/
  - root uri: https://secure.na2.echosign.com
  - application id
  - secret
