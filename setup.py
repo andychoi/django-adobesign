@@ -12,7 +12,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 VERSION = open(os.path.join(here, 'VERSION')).read().strip()
 
 REQUIREMENTS = [
-    'Django>=2.2.27,<=4.1',
+    'Django>=2.2.27',
     'django-anysign>=1.2',
     'requests',
     # v1.2.0 introduce OAuthlib 3.0.0 seems to be not compatible with Adobe
