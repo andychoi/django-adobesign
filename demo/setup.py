@@ -15,7 +15,7 @@ README = open(os.path.join(here, 'README.rst')).read()
 VERSION = open(os.path.join(project_root, 'VERSION')).read().strip()
 
 REQUIREMENTS = [
-    'Django>=2.2.27,<3.3',
+    'Django>=2.2.27,<4.2',
     'django-anysign>=1.2',
     'requests',
     'requests_oauthlib',
