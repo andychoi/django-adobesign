@@ -1,4 +1,4 @@
-django==4.1.4
+django==4.1.7
 # django-anysign
 git+https://github.com/andychoi/django-anysign.git
 django-sslserver
